@@ -35,7 +35,6 @@ Add additional data sources or preprocessing steps as needed in the respective m
 Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests for any improvements or feature enhancements.
 
-License
 MIT License
 
 Copyright (c) 2023 Pranaykumar30
