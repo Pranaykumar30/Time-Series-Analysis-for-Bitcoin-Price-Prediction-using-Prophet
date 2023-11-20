@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bitcoin Predictor</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <form>
+        <div class="menu">
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('y_predict') }}">Predict</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h1>Welcome to Bitcoin Price Prediction</h1>
+        <p>Facebook Prophet is an AI-powered tool used by Facebook to predict future trends and patterns. It can be used to forecast the price of Bitcoin by analyzing historical data and identifying trends and patterns. Facebook Prophet uses machine learning algorithms to analyze a wide range of data sources, including time series data, to make predictions about the future.
+            To predict Bitcoin prices using Facebook Prophet, you can begin by collecting historical Bitcoin price data and formatting it as a time series. Once the data is organized, Facebook Prophet can be used to make predictions about future Bitcoin prices based on patterns and trends found in the data.
+            It is important to note that any predictions made using Facebook Prophet or any other forecasting tool are subject to </p>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+    </form>
+</body>
+
+</html>
